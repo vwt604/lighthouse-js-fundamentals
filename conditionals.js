@@ -1,4 +1,16 @@
-const temperature = 12;
+const cold = false;
+
+//if...else//
+
+if (cold) {
+  console.log("Make sure you pick out a scarf!");
+} else {
+  console.log("Short sleeves are fine.");
+}
+
+//nested if//
+
+const temperature = 9;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -9,22 +21,3 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
-
-const isCitizen = true;
-const age = 29;
-
-if (isCitizen && age > 18) {
-  console.log("You are eligible to vote.");
-}
-
-const temperatureTwo = 42
-
-if (temperatureTwo < -40 || temperatureTwo > 40) {
-  console.log("Maybe going outside isn't such a great idea…");
-}
-
-const raining = false
-
-if (!raining) {
-  console.log("Leave your umbrella at home!");
-}
